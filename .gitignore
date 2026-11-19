@@ -1,0 +1,28 @@
+# Python bytecode and tool caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Virtual environments and local environment files
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Generated Hack machine code
+*.hack
+
+# Local editor and operating-system files
+.zed/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
